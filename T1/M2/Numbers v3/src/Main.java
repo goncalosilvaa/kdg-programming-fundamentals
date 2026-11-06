@@ -13,6 +13,7 @@ public class Main {
       number1 = sc.nextLong();
       System.out.print("Enter a 8-digit whole number: ");
       number2 = sc.nextLong();
+      sc.close();
 
       if(number1<MINIMUM_DIVIDEND || number2<MINIMUM_DIVISOR) {
         flag=false;
